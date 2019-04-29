@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- CDN -->
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/css/uikit.min.css" />
+    <!-- Bootstarp CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit-icons.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <style>
+        .dynamic-shadow {
+            position: relative;
+            background: linear-gradient(75deg, #6d78ff, #00ffb8);
+            z-index: 1;
+        }
+        summary::-webkit-details-marker {
+            display: none
+        }
+
+        summary:after {
+            background: #777;
+            border-radius: 5px;
+            color: #fff;
+            float: left;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: -5px 10px 0 0;
+            padding: 0;
+            text-align: center;
+            width: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="uk-flex uk-flex-center uk-overflow-hidden" uk-grid>
+        <div class="uk-width-1-2@m dynamic-shadow">
+            <!-- Heading -->
+            <div>
+                <div class="uk-margin-medium-top uk-margin-large-bottom">
+                    <h1 class="uk-heading-small">Mohd Ikramuddin Farooqui</h1>
+                    <p class="uk-text-large uk-text-emphasis">301, Khan Towers, Salar Jung colony , Telangana - 500028</p>
+                    <p class="uk-text-emphasis">9673655396 <span class="uk-divider-vertical uk-margin-medium-left"></span>
+                        <span class="uk-margin-medium-left">ikramf90@gmail.com</span></p>
+                </div>
+            </div>
+            <!-- columns -->
+            <div class="uk-grid-divider uk-child-width-expand@s uk-background-default" uk-grid>
+                <!-- Left Conatiner -->
+                <div>
+                    <!-- Skills -->
+                    <div class="uk-margin-medium-top">
+                        <h3 class="uk-text-success">Skills</h3>
+                        <div class="uk-margin-small-top">
+                            <span class="uk-badge">C#</span>
+                            <span class="uk-badge">Java</span>
+                            <span class="uk-badge">C/C++</span>
+                            <span class="uk-badge">JavaScript</span>
+                            <span class="uk-badge">TypeScript</span>
+                            <span class="uk-badge">Asp.Net MVC/API</span>
+                            <span class="uk-badge">Angular 7</span>
+                            <span class="uk-badge">JQuery</span>
+                            <span class="uk-badge">HTML/CSS</span>
+                            <span class="uk-badge">SCSS</span>
+                            <span class="uk-badge">Ajax</span>
+                            <span class="uk-badge">SQL/PL-SQL</span>
+                            <span class="uk-badge">SQL Server</span>
+                            <span class="uk-badge">Oracle DB</span>
+                            <span class="uk-badge">GIT</span>
+                            <span class="uk-badge">DevOps</span>
+                        </div>
+                    </div>
+                    <hr />
+                    <!-- References -->
+                    <div>
+                        <h3 class="uk-text-success mb-0">References</h3>
+                        <div class="uk-flex">
+                            <div class="uk-card uk-card-hover uk-width-1-2 px-3 py-3 uk-card-body">
+                                <h3 class="uk-card-title">Kibeom Kim</h3>
+                                <span>CEO, M19G Inc.</span>
+                                <button class="uk-button uk-button-link d-block">legal@m19g.com</button>
+                            </div>
+                            <div class="uk-card uk-card-hover px-3 py-3 uk-width-1-2 uk-card-body">
+                                <h3 class="uk-card-title">Rajesh Singhla</h3>
+                                <span>CEO, Planify.com</span>
+                                <button class="uk-button uk-button-link d-block">rajesh@planify.com</button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <!-- Achievements -->
+                    <div>
+                        <h3 class="uk-text-success">Achievements</h3>
+                        <details>
+                            <summary><span uk-icon="play"></span> Editor College Magazine</summary>
+                            <p> Worked as editor (Technical Section) of annual college magazine (2015-16).</p>
+                        </details>
+                        <details>
+                            <summary><span uk-icon="play"></span> IICDC-2016 Quarter Finalist</summary>
+                            <p> Participated in IICDC-2016 organized by Texas Instruments and lead my team to top 144
+                                out of 11,000 competing teams from across the nation.</p>
+                        </details>
+                    </div>
+                    <hr />
+                     <!-- Projects -->
+                     <div>
+                            <h3 class="uk-text-success">Projects</h3>
+                            <details>
+                                    <summary><span uk-icon="play"></span>
+                                        <h5 class="d-inline mr-5">E-commerce application using java</h5>
+                                        <h6 class="uk-text-small ml-4">17 May'18 - 26 Jul'18</h6>
+                                    </summary>
+                                    <ul class="uk-list uk-list-bullet">
+                                        <li>Worked on Project using <b>Java</b>.</li>
+                                        <li>A self project to master and utilize concepts of Java in real world scenario.</li>
+                                        <li>Created a simple ecommerce site with limited features to demonstrate <b>MVC</b> architecture using <b>servlets</b>, <b>Jsps</b> and <b>JDBC</b> with Oracle 11g DB.</li>
+                                    </ul>
+                                </details>
+                                <details>
+                                        <summary><span uk-icon="play"></span>
+                                            <h5 class="d-inline mr-5">Head Motion Controlled Wheel chair</h5>
+                                            <h6 class="uk-text-small ml-4">10 Jan'17 - 29 Jun'17</h6>
+                                        </summary>
+                                        <ul class="uk-list uk-list-bullet">
+                                            <li>Implemented a system which consumes inputs from an accelerometer to drive the wheelchair in the respective direction. It’s additional features include a calling and messaging system through GSM module coupled with heart rate monitoring system.</li>
+                                            <li>Project is designed primarily for quardriplegics.</li>
+                                            <li>Projects aims towards providing a cheaper alternative to high cost wheelchairs currently available in the market.</li>
+                                        </ul>
+                                    </details>
+                    </div>
+                </div>
+                <!-- Right container -->
+                <div>
+                    <div class="uk-margin-medium-top">
+                        <!-- Summary -->
+                        <div class="uk-margin-medium-top">
+                            <h3 class="uk-text-success">Summary</h3>
+                            <p class="uk-text-small">Highly focused Software Developer with over <b>1</b> year
+                                experience as <b>Full stack developer</b>. Organised, methodical and an eye for detail
+                                resulting in solid coding and trustworthy software development.</p>
+                        </div>
+                    </div>
+                    <hr />
+                    <!-- Academic Details -->
+                    <div>
+                        <h3 class="uk-text-success">Academic Details</h3>
+                        <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
+                            <div class="mt-4 uk-text-left">
+                                <h6>X</h6>
+                                <span class="d-block uk-text-muted">Sana high school | 2011</span>
+                                <span class="uk-text-muted">Marks - 84.55%,</span>
+                            </div>
+                            <div class="mt-4 uk-text-left">
+                                <h6>XII</h6>
+                                <span class="d-block uk-text-muted">Sana Jr. College | 2013</span>
+                                <span class="uk-text-muted">Marks - 59.00%,</span>
+                            </div>
+                        </div>
+                        <div class="mt-4 uk-text-left">
+                            <h6>B.E.</h6>
+                            <span class="d-block uk-text-muted">MGM College of Engineering Nanded | 2018</span>
+                            <span class="uk-text-muted">Marks - 59.00%,</span>
+                        </div>
+                    </div>
+                    <hr />
+                    <!-- PROFESSIONAL DETAILS -->
+                    <div>
+                        <h3>Proffessioanl Details</h3>
+                        <details>
+                            <summary><span uk-icon="play"></span>
+                                <h5 class="d-inline mr-5">Full Stack Developer</h5>
+                                <h6 class="d-inline uk-text-muted uk-text-small">10 Sep'18 - Present</h6>
+                                <h6 class="uk-text-small ml-4">Keka Technologies, HYD</h6>
+                            </summary>
+                            <span>As part of daily work I generally get involved in,</span>
+                            <ul class="uk-list uk-list-bullet">
+                                <li>Resolving Issues and debugging.</li>
+                                <li>Undertaking complete ownership of assigned tasks and manage own priorities and time
+                                    allocation with minimal
+                                    daily supervision.</li>
+                                <li>Working in a Scrum/Agile environment to plan and estimate work at different levels
+                                    (story, sprint,
+                                    release).</li>
+                                <li>Offer suggestions to improve processes and evaluate alternative technologies to
+                                    help meet Keka's high
+                                    standards of value and performance.</li>
+                                <li>Front end application development using Angular-JS/7, Javascript, CSS, SCSS, HTML,
+                                    Jquery, Ajax, etc.</li>
+                                <li>Back end application development using C#, Asp.Net, EF(Entity Framework), MS-SQL,
+                                    etc.</li>
+                            </ul>
+                        </details>
+                        <details>
+                            <summary><span uk-icon="play"></span>
+                                <h5 class="d-inline mr-5">Front end Intern</h5>
+                                <h6 class="d-inline uk-text-muted uk-text-small">Dates to be updted</h6>
+                                <h6 class="uk-text-small ml-4">Planify.com</h6>
+                            </summary>
+                            <span>As an front end intern I worked mainly on Angular-6</span>
+                            <!-- <ul class="uk-list uk-list-bullet">
+                                                            <li>Gained exposure in full life-cycle implementation with skills in executing Sofware Development Life Cycle (SDLC).</li>
+                                                            <li>Worked on migration of existing webpages to Polymer.</li>
+                                                        </ul> -->
+                        </details>
+                        <details>
+                            <summary><span uk-icon="play"></span>
+                                <h5 class="d-inline mr-5">Programming Intern</h5>
+                                <h6 class="d-inline uk-text-muted uk-text-small">18 Dec'17 - 1 Jan'18</h6>
+                                <h6 class="uk-text-small ml-4">M19G Inc.</h6>
+                            </summary>
+                            <span>As an intern I what I got from M19G are,</span>
+                            <ul class="uk-list uk-list-bullet">
+                                <li>Gained exposure in full life-cycle implementation with skills in executing Sofware
+                                    Development Life Cycle
+                                    (SDLC).</li>
+                                <li>Worked on migration of existing webpages to Polymer.</li>
+                            </ul>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
