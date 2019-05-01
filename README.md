@@ -15,4 +15,4 @@ MIT
 
 You can use this code for your personal use after getting a permission from me.
 
-**Free Software, Hell Yeah!**
+**Free Stuff, Hell Yeah!**
